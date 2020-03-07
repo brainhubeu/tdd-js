@@ -7,3 +7,10 @@ jobs:
     steps:
       - checkout
       - run: node splitStringIntoChunks.test.js
+
+
+workflows:
+  version: 2
+  test_and_deploy:
+    jobs:
+      - test
