@@ -6,6 +6,7 @@ jobs:
     working_directory: ~/app
     steps:
       - checkout
+      - run: yarn install --non-interactive
       - run: node splitStringIntoChunks.test.js
       - run: yarn test
 
