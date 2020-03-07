@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout
       - run: node splitStringIntoChunks.test.js
+      - run: yarn test
 
 
 workflows:
