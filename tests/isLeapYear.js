@@ -1,5 +1,6 @@
-const isLeapYear = require('../isLeapYear');
 const { expect } = require('chai');
+
+const isLeapYear = require('../isLeapYear');
 
 describe('isLeapYear', () => {
   it('returns false for a year non-divisible by 4', () => {

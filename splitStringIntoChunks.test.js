@@ -1,5 +1,6 @@
-const splitStringIntoChunks = require('./splitStringIntoChunks');
 const assert = require('assert');
+
+const splitStringIntoChunks = require('./splitStringIntoChunks');
 
 const isEqual = (x, y) => JSON.stringify(x) === JSON.stringify(y);
 

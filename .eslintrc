@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": [
+    "brainhub"
+  ],
+  "env": {
+    "mocha": true,
+  },
+  "rules": {
+  }
+}

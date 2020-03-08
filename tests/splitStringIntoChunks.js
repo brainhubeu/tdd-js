@@ -1,5 +1,6 @@
-const splitStringIntoChunks = require('../splitStringIntoChunks');
 const { expect } = require('chai');
+
+const splitStringIntoChunks = require('../splitStringIntoChunks');
 
 describe('splitStringIntoChunks', () => {
   it('works', () => {
