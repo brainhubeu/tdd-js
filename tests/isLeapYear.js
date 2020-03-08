@@ -7,4 +7,10 @@ describe('isLeapYear', () => {
 
     expect(result).to.equal(false);
   });
+
+  it('returns true for a year divisible by 4', () => {
+    const result = isLeapYear(2020);
+
+    expect(result).to.equal(true);
+  });
 });
