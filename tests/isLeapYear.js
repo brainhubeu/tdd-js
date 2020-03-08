@@ -13,4 +13,10 @@ describe('isLeapYear', () => {
 
     expect(result).to.equal(true);
   });
+
+  it('returns false for a year divisible by 100', () => {
+    const result = isLeapYear(2100);
+
+    expect(result).to.equal(false);
+  });
 });
