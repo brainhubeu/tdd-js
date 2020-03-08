@@ -19,4 +19,10 @@ describe('isLeapYear', () => {
 
     expect(result).to.equal(false);
   });
+
+  it('returns true for a year divisible by 400', () => {
+    const result = isLeapYear(2000);
+
+    expect(result).to.equal(true);
+  });
 });
