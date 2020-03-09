@@ -1,12 +1,15 @@
+const logger = Symbol('logger');
 const products = Symbol('products');
 
 class Inventory {
-  constructor() {
+  constructor(params) {
+    this[logger] = params.logger;
     this[products] = [];
   }
 
   addProduct(product) {
     this[products].push(product);
+    this[logger].info(`a product with ${product.getPrice()} price has been added`);
   }
 
   getTotal() {

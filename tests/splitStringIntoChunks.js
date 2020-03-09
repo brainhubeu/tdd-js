@@ -1,5 +1,4 @@
-const { expect } = require('chai');
-
+const { expect } = require('./setup');
 const splitStringIntoChunks = require('../splitStringIntoChunks');
 
 describe('splitStringIntoChunks', () => {

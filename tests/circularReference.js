@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+const { expect } = require('./setup');
 
 describe('show how chai handles circular references', () => {
   it('passes for equal objects where the reference is to the same object', () => {
