@@ -25,7 +25,8 @@
         100,
         100
       ]
-    }
+    },
+    "cache": false
   },
   "repository": {
     "type": "git",
