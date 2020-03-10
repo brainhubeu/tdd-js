@@ -4,7 +4,28 @@
   "description": "",
   "scripts": {
     "lint": "eslint tests *.js",
-    "test": "mocha --recursive tests"
+    "test-mocha": "mocha --recursive tests",
+    "test": "nyc --check-coverage=true yarn test-mocha"
+  },
+  "nyc": {
+    "watermarks": {
+      "lines": [
+        100,
+        100
+      ],
+      "functions": [
+        100,
+        100
+      ],
+      "branches": [
+        100,
+        100
+      ],
+      "statements": [
+        100,
+        100
+      ]
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +45,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-mocha": "^6.3.0",
     "mocha": "^7.1.0",
+    "nyc": "^15.0.0",
     "sinon": "^9.0.0",
     "sinon-chai": "^3.5.0"
   }
