@@ -8,6 +8,7 @@
     "test": "nyc --check-coverage=true yarn test-mocha"
   },
   "nyc": {
+    "all": true,
     "watermarks": {
       "lines": [
         100,
