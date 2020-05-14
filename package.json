@@ -1,6 +1,6 @@
 {
   "name": "tdd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "lint": "eslint tests *.js",
@@ -48,10 +48,10 @@
     "chai": "^4.2.0",
     "coveralls": "^3.0.11",
     "dirty-chai": "^2.0.1",
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-mocha": "^7.0.0",
     "mocha": "^7.1.1",
     "nyc": "^15.0.1",
     "sinon": "^9.0.2",
