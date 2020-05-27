@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  Example of Test-driven Development in JavaScript.
+  Examples of Test-driven Development in JavaScript.
 </p>
 
 <p align="center">
